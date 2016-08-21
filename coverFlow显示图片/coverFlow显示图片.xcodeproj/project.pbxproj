@@ -58,12 +58,8 @@
 		CE70D8121D69965400030CDB /* coverFlow显示图片 */ = {
 			isa = PBXGroup;
 			children = (
-				CE70D8161D69965400030CDB /* AppDelegate.h */,
-				CE70D8171D69965400030CDB /* AppDelegate.m */,
 				CE70D8191D69965400030CDB /* ViewController.h */,
 				CE70D81A1D69965400030CDB /* ViewController.m */,
-				CE70D81C1D69965400030CDB /* Main.storyboard */,
-				CE70D81F1D69965400030CDB /* Assets.xcassets */,
 				CE70D8211D69965400030CDB /* LaunchScreen.storyboard */,
 				CE70D8241D69965400030CDB /* Info.plist */,
 				CE70D8131D69965400030CDB /* Supporting Files */,
@@ -74,6 +70,10 @@
 		CE70D8131D69965400030CDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE70D8161D69965400030CDB /* AppDelegate.h */,
+				CE70D8171D69965400030CDB /* AppDelegate.m */,
+				CE70D81C1D69965400030CDB /* Main.storyboard */,
+				CE70D81F1D69965400030CDB /* Assets.xcassets */,
 				CE70D8141D69965400030CDB /* main.m */,
 			);
 			name = "Supporting Files";
