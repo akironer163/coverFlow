@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HMCollectionViewCell.h"
 
 static NSString *cellID = @"cellID";
 
@@ -35,9 +36,9 @@ static NSString *cellID = @"cellID";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
+    HMCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
     
-    cell.contentView.backgroundColor = [UIColor redColor];
+    cell.image = _imageList[indexPath.row];
     
     return cell;
 }
@@ -50,7 +51,7 @@ static NSString *cellID = @"cellID";
     
     collectionView.dataSource = self;
     
-    [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellID];
+    [collectionView registerClass:[HMCollectionViewCell class] forCellWithReuseIdentifier:cellID];
     
     [self.view addSubview:collectionView];
 }
@@ -59,8 +60,8 @@ static NSString *cellID = @"cellID";
     
     _imageList = @[
                    [UIImage imageNamed:@"01"],
-                   [UIImage imageNamed:@"01"],
-                   [UIImage imageNamed:@"01"]
+                   [UIImage imageNamed:@"02"],
+                   [UIImage imageNamed:@"03"]
                    ];
     
 }

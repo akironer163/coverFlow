@@ -13,6 +13,7 @@
 		CE70D81E1D69965400030CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70D81C1D69965400030CDB /* Main.storyboard */; };
 		CE70D8201D69965400030CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE70D81F1D69965400030CDB /* Assets.xcassets */; };
 		CE70D8231D69965400030CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70D8211D69965400030CDB /* LaunchScreen.storyboard */; };
+		CE70D82C1D699D9900030CDB /* HMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70D82B1D699D9900030CDB /* HMCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CE70D81F1D69965400030CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE70D8221D69965400030CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE70D8241D69965400030CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE70D82A1D699D9900030CDB /* HMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCollectionViewCell.h; sourceTree = "<group>"; };
+		CE70D82B1D699D9900030CDB /* HMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,8 @@
 			children = (
 				CE70D8191D69965400030CDB /* ViewController.h */,
 				CE70D81A1D69965400030CDB /* ViewController.m */,
-				CE70D8211D69965400030CDB /* LaunchScreen.storyboard */,
-				CE70D8241D69965400030CDB /* Info.plist */,
+				CE70D82A1D699D9900030CDB /* HMCollectionViewCell.h */,
+				CE70D82B1D699D9900030CDB /* HMCollectionViewCell.m */,
 				CE70D8131D69965400030CDB /* Supporting Files */,
 			);
 			path = "coverFlow显示图片";
@@ -73,7 +76,9 @@
 				CE70D8161D69965400030CDB /* AppDelegate.h */,
 				CE70D8171D69965400030CDB /* AppDelegate.m */,
 				CE70D81C1D69965400030CDB /* Main.storyboard */,
+				CE70D8211D69965400030CDB /* LaunchScreen.storyboard */,
 				CE70D81F1D69965400030CDB /* Assets.xcassets */,
+				CE70D8241D69965400030CDB /* Info.plist */,
 				CE70D8141D69965400030CDB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE70D81B1D69965400030CDB /* ViewController.m in Sources */,
+				CE70D82C1D699D9900030CDB /* HMCollectionViewCell.m in Sources */,
 				CE70D8181D69965400030CDB /* AppDelegate.m in Sources */,
 				CE70D8151D69965400030CDB /* main.m in Sources */,
 			);
