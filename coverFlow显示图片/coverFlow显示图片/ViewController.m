@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HMCollectionViewCell.h"
+#import "HMCollectionViewFlowLayout.h"
 
 static NSString *cellID = @"cellID";
 
@@ -45,9 +46,10 @@ static NSString *cellID = @"cellID";
 
 - (void)setupUI {
     
-    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    HMCollectionViewFlowLayout *flowLayout = [[HMCollectionViewFlowLayout alloc] init];
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 200) collectionViewLayout:flowLayout];
     collectionView.backgroundColor = [UIColor lightGrayColor];
+    collectionView.showsHorizontalScrollIndicator = NO;
     
     collectionView.dataSource = self;
     
